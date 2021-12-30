@@ -1,0 +1,54 @@
+.buscar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  
+    input {
+      width: 350px;
+      height: 40px;
+      padding: 0 20px;
+      font-size: 15px;
+      color: black;
+      outline: none;
+      border: 1px solid silver;
+      border-radius: 30px;
+      margin: 15px  10px;
+    }
+  
+    button {
+      border-radius: 25px;
+      outline: none;
+      width: 90px;
+      height: 35px;
+      background-color: #2D2D2D;
+      color: white;
+      border: none;
+      margin: 5px;
+      font-size: 15px;
+  
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        border: solid 2px #2D2D2D;
+        color: #2D2D2D;
+      }
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .buscar {
+      input {
+        width: 280px;
+        height: 40px;
+      }
+  
+      button {
+        border-radius: 25px;
+        outline: none;
+        width: 70px;
+        height: 35px;
+      }
+    }
+  }

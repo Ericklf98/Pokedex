@@ -1,0 +1,35 @@
+.icono {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+    border: none;
+  
+    img {
+      height: 66px;
+      width: 66px;
+      object-fit: cover;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .icono {
+      width: 55px;
+      height: 55px;
+      line-height: 65px;
+      bottom: 5px;
+      right: 5px;
+  
+      img {
+        height: 55px;
+        width: 55px;
+      }
+    }
+  }
